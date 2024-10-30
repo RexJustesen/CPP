@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "2240216eed00e237",
+    "type": "split",
+    "children": [
+      {
+        "id": "9462155ac2a03588",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b5f87d6bf08fc10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++ Basics, Variables, Input, Output, Pointers & Time"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e53d0a15720939b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f69760a1597831e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6da2a912c63e5237",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d595cd2024731b57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "81ddb2297f259762",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70ee37524b3dff92",
+    "type": "split",
+    "children": [
+      {
+        "id": "1099a5f31eb61b85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe4de110dc9c5c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for C++ Basics, Variables, Input, Output, Pointers & Time"
+            }
+          },
+          {
+            "id": "167a2192b458cc12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from C++ Basics, Variables, Input, Output, Pointers & Time"
+            }
+          },
+          {
+            "id": "77baa15b4bb88b08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "967fc41524e75b70",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of C++ Basics, Variables, Input, Output, Pointers & Time"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6b5f87d6bf08fc10",
+  "lastOpenFiles": [
+    "Design Patterns in C++/Command Pattern/Command Pattern.md",
+    "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
+    "Design Patterns in C++/Design Patterns in C++.md",
+    "Design Patterns in C++",
+    "C++ Notes",
+    "Command Pattern/Command Pattern Code Example/Untitled.md",
+    "Design Patterns in C++/Command Pattern/Command Pattern Code Example",
+    "Design Patterns in C++/Command Pattern",
+    "Welcome.md"
+  ]
+}
