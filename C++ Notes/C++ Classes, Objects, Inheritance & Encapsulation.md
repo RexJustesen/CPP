@@ -228,3 +228,261 @@ Invoke methods using the dereference operator
 ```c++
 myPlayer->Print();
 ```
+
+### Example 
+```c++
+class MyClass {
+public:
+	void Print() {
+		cout << "MyClass\n";
+	}
+};
+
+int main(){
+	MyClass myStaticObj;
+	myStaticObj.Print();
+	MyClass *myDynamicObj;
+	myDynamicObj = new MyClass();
+	myDynamicObj->Print();
+	return 0;
+}
+```
+
+### Passing Objects As Pointers 
+Formal Parameters can be pointers to objects 
+```c++
+type functionName(ClassName * identifier);
+```
+When Invoking the member function we can pass a pointer 
+```c++
+ClassName *identifier = new ClassName();
+functionName(identifier);
+```
+Example:
+```c++
+void Display(Player *p){
+	cout << p->name << endl;
+}
+```
+- Instantiate the player and pass it to Display
+```c++
+Player *myPlayer = new Player();
+Display(myPlayer);
+```
+
+### Creating Anonymous Objects 
+When passing pointers as arguments to a function it may not be necessary for the invoking code to maintain a pointer to the object. 
+
+```c++
+funtionName(new type);
+```
+
+```c++
+class Weapon{
+private:
+	Magazine *magazine;
+public:
+	void Load(Magazine *newMag){
+		magazine = newMag;
+	}
+};
+
+int main(){
+	weapon *myGun = new Weapon("M14", true);
+	myGun->Load(new Magazine(20));
+	return 0;
+}
+```
+
+### Inheritance 
+- Typically classes have relationships with one another
+- Some Classes being specialized version of more general classes. 
+- This could be modelled as a class hierarchy. 
+- Examples
+	- dog is a type of animal
+	- house is a type of building 
+	- npc is a type of gameObject
+- The general class is known as the parent and the specialized class the child 
+```c++
+class ChildClassName:ParentClassName{
+
+}
+```
+
+### Inheritance example 
+```c++
+class Model{
+public:
+	void Draw(){}
+};
+
+class Car: public Model{
+public:
+	void ChangeGear(){}
+};
+```
+
+- The car above is a type of model 
+- When declaring the class we indicate car inherits the members of Model by including **:Model** after the class name.
+- **public** is placed before the model to ensure public member function remain public when invoked on an object of the Car type. If private was used all member functions inherited from Model would be private. 
+- Car is known as a derived (sub/child class) and Model the base class (super/parent class)
+- Within the application we can crate instances of both car and model 
+- Model however can only invoke the Draw() member function 
+- Car can invoke both its ChangeGear() and Model's Draw() member functions 
+```c++
+class Model {
+public: 
+	void Draw){}
+};
+
+class Car:public Model {
+public:
+	void ChangeGear(){}
+};
+
+int main(){
+	Model model;
+	Car car;
+	model.Draw();
+	car.Draw();
+	car.ChangeGear();
+	return 0;
+}
+```
+
+
+### Multiple Inheritance 
+- C++ supports multiple inheritance 
+- A derived class inherits from more than one parent class. 
+- Can introduce unnecessary complexity. 
+- Naming conflicts - Parents have members with the same name. Which should be used?
+- Diamond problem - The two parent classes have a common parent.
+- Multiple inheritance should be avoided if possible. 
+
+### Example of Multiple Inheritance 
+```c++
+class Boat {
+protected:
+	int id;
+public: 
+	Boat(int id):id(id){}
+	void Display(){cout << id << endl;}
+};
+
+class Car {
+protected:
+	int id;
+public:
+	Car(int id):id(id){}
+	void Display(){cout << id << endl;}
+};
+
+class Amphibian: public Boat, public Car{ // Implement multiple inheritance
+public:
+	Amphibian(int id):Car(id), Boar(id) {} //The amphibian class has two id's!
+};
+
+int main() {
+	Amphibian *duck = new Amphibian(1);
+	duck->Car::Display(); //Prefix display with class name to avoid name conflict
+	return 0;
+}
+```
+
+### Encapsulation 
+- Class member variables define an object's state
+- Direct access to the state could lead to inconsistencies and leads to tight coupling between the class and code that uses it
+- good practice to hide this state by declaring member private. Forcing the developer to access the variables through the getter / setter methods 
+- There are two types of member function. 
+- **Mutators** - allow changes to the object's state (default). this is known as the setter method this method sets or updates the value of a private member variable. 
+- **Accessors** - do not allow changes to the object's state. this is the getter methods that retrieves the value of a private member variable but does not modify the object's state.
+- a member function can be declared an accessor by appending the **const**  keyword to its declaration. 
+```c++
+type FunctionName()const{}
+```
+
+### Getter & Setter Member functions 
+- each variable has a pair of member functions that sets and gets the variable value
+- Logic inside the setter ensure the state remains consistent. 
+- The getter is an **Accessor** and consequently should not change the state - hence the addition of the **const** keyword. 
+```c++
+class Marker {
+private:
+	int passMark;
+public:
+	void setPassMark(int pMark){
+		if(pMark > 0)
+			passMark = pMark;
+	}
+	int getPassMark() const{
+		return passMark;
+	}
+};
+```
+
+### Abstract Member Functions 
+- Also known as **pure virtual member functions** 
+- A Function that has no implementation. 
+- It is virtual as subclasses must override it. 
+```c++
+vitrual type MemberFunctionName() = 0;
+```
+- When declared within a class it prevents the class from being instantiated (an abstract class).
+- Only derived classes that implement the pure virtual member functions can be instantiated
+```c++
+class Person {
+public:
+	virtual void Move() = 0;
+};
+
+class Soldier:public Person {
+public:
+	void Move(){ }
+};
+```
+- Classes with one or more abstract member functions could be used as an alternative to Java / C# interfaces
+### Interface Example 
+While we can't create an instance of an abstract class, it is possible to define a pointer to the abstract class and assign a derived object to it. This restricts access to the public members of the abstract class. 
+
+- class IPrintable is the parent and abstract class. 
+- Class GameObject inherits from IPrintable
+- GameObject implement Print() function from IPrintable
+- We are creating a pointer to the parent IPrintable and then we are assigning an address of the child class GameObject. If this function was not abstract it would call the print of the parent but since it is abstract and is overridden by the child it is calling the member function of the child GameObject.
+```c++
+class IPrintable {
+public:
+	virtual void Print() = 0;
+};
+
+class GameObject: public IPrintable {
+private:
+	int id;
+public:
+	GameObject(int id):id(id){}
+	int GetID() const {
+		return id;
+	}
+	void Print(){
+		cout << "ID: " << id << endl;
+	}
+};
+
+int main(){
+	GameObject *obj1 = new GameObject(1)'
+	cout << obj1->GetID() << endl;
+	IPrintable *obj2 = new GameObject(2)'
+	obj2->Print();
+}
+```
+
+
+### Project Organization 
+- Often a developer is only interested in the class's interface.
+- Not the implementation of the member functions. 
+- Separate the implementation and interface elements of a class. 
+- The **class's definition** (interface) including the declaration of its member function is placed in a header file (ending in .h)
+- The definition of the member functions is placed in a **.cpp** file.
+- Within Visual Studio these files are created for you when you select **Project->Add Class**
+- It is good practice to place each class in its own .h and .cpp file. 
+- By convention these files have the same name as the class. This is enforce when creating classes through Visual Studio. 
+

@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b5f87d6bf08fc10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C++ Basics, Variables, Input, Output, Pointers & Time"
-            }
-          },
-          {
-            "id": "a728814715a4c021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "cdb07b381d7f2f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C++ Basics, Variables, Input, Output, Pointers & Time"
-            }
-          },
-          {
-            "id": "da374174dac605bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++ Notes/C++ Basics Examples/Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Examples"
-            }
-          },
-          {
             "id": "049f2c615fdb2a54",
             "type": "leaf",
             "state": {
@@ -77,8 +21,7 @@
               "title": "C++ Classes, Objects, Inheritance & Encapsulation"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
