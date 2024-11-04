@@ -486,3 +486,52 @@ int main(){
 - It is good practice to place each class in its own .h and .cpp file. 
 - By convention these files have the same name as the class. This is enforce when creating classes through Visual Studio. 
 
+### Examples of organization 
+- Header File 
+```c++
+//File data.h
+#pragma once
+
+class Date {
+private:
+	int year;
+	int month;
+	int day;
+public:
+	Date(int day, int month, int year);
+	int GetYear(){ return year; }
+	int GetMonth(){ return month; }
+	int GetDay(){ return day; }
+	void SetDate(int d, int m, int y);
+};
+```
+
+- .cpp file (implementation of header file)
+```c++
+// File date.cpp
+#include "stdafx.h"
+#include "Date.h"
+
+Date::Date(int day, int month, int year){
+	SetDate(day,month,year);
+}
+
+void Date::SetDate(int d, int m, int y){
+	day = d;
+	month = m;
+	year = y;
+}
+```
+
+- Main file
+```c++
+#include "stdafx.h"
+#include "Date.h"
+
+int main(){
+	Date *myDate = new Date(24,5,2024);
+	std::cout<< myDate->GetYear() << endl; // displays 2024
+	return 0;
+}
+```
+
