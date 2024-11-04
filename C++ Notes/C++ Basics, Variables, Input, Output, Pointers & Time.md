@@ -376,7 +376,7 @@ _time32_t
 using namespace std;
 
 int main(){
-	_time32_t rawtime; 
+	__time32_t rawtime; 
 	struct tm timeinfo;
 	char buffer[32];
 	_time32(&rawtime);
