@@ -326,3 +326,5 @@ cout << &age <<" "<<pAge<<" "<<*pAge<<endl; //Displays 1000 1000 21
 
 
 
+
+

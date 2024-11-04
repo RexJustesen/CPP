@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "C++ Basics, Variables, Input, Output, Pointers & Time"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for C++ Basics, Variables, Input, Output, Pointers & Time"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from C++ Basics, Variables, Input, Output, Pointers & Time"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of C++ Basics, Variables, Input, Output, Pointers & Time"
             }
           }
         ]
@@ -179,10 +179,10 @@
   },
   "active": "a728814715a4c021",
   "lastOpenFiles": [
-    "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
-    "README.md",
-    "Untitled",
     "Design Patterns in C++/Command Pattern/Command Pattern.md",
+    "README.md",
+    "C++ Notes/C++ Basics, Variables, Input, Output, Pointers & Time.md",
+    "Untitled",
     "Design Patterns in C++/Design Patterns in C++.md",
     "Design Patterns in C++",
     "C++ Notes",
