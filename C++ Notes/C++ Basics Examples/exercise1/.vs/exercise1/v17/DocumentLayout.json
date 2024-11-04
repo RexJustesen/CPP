@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\C\u002B\u002B Notes\\C\u002B\u002B Basics Examples\\exercise1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{391E44AC-23F1-4764-B607-440186A2A319}|exercise1.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\C\u002B\u002B Notes\\C\u002B\u002B Basics Examples\\exercise1\\exercise1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{391E44AC-23F1-4764-B607-440186A2A319}|exercise1.vcxproj|solutionrelative:exercise1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "exercise1.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\C\u002B\u002B Notes\\C\u002B\u002B Basics Examples\\exercise1\\exercise1.cpp",
+              "RelativeDocumentMoniker": "exercise1.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\C\u002B\u002B Notes\\C\u002B\u002B Basics Examples\\exercise1\\exercise1.cpp",
+              "RelativeToolTip": "exercise1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T14:56:06.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

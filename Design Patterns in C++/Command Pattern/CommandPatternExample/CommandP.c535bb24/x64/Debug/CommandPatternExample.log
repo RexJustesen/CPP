@@ -1,0 +1,4 @@
+﻿  CommandPatternExample.cpp
+C:\Users\rango\projects\cpp_notes\CPP\CommandPatternExample\CommandPatternExample.cpp(53,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\rango\projects\cpp_notes\CPP\CommandPatternExample\CommandPatternExample.cpp(69,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CommandPatternExample.vcxproj -> C:\Users\rango\projects\cpp_notes\CPP\CommandPatternExample\x64\Debug\CommandPatternExample.exe

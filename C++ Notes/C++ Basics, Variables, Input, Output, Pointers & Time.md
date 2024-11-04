@@ -325,6 +325,72 @@ cout << &age <<" "<<pAge<<" "<<*pAge<<endl; //Displays 1000 1000 21
 ```
 
 
+### References 
+- An alias for a variable, through which the data within the variable can be modified. 
+- The reference holds the address of a variable. 
+- The reference is declared using the reference operator &
+- The reference must be initialized during the definition. 
+```c++
+type& referenceName = value;
+```
+- Once initialized the reference address can't change (unlike a pointer)
+- After declaration the reference can be treated as a normal variable. 
+```c++
+char gender = 'M'
+char& ref = gender;
+ref = 'F'
+cout << ref << endl; //Outputs F
+cout << gender << endl; //Outputs F
+```
+
+### Operators 
+- Assignment operator =
+- Mathematical operators /, -, +, *
+- Modulus (integer div remainder) %
+- Decrement/increment --, ++
+- Compound assignment +=, * =, -=, /=
+- Prefix - increments a value before assignment: firstValue = ++secondValue
+- Postfix - assigns value then increments: fistValue = secondValue++;
+- Relational and equality operators: 
+```c++
+==, !=, >, >=, <, <=
+```
+
+### Time
+- Access time related function by including <time.h>
+- the time / date is stored within a variable of type:
+```c++
+_time32_t
+```
+- the __time32 function populates a variable of type
+```c++
+_time32_t
+```
+(passed as a parameter) with the current system time as an integer. The number of seconds elapsed since 1st Jan 1970. 
+- The localtime32_s function is passed the time in seconds and populate a **tm** structure with the appropriate s, h, days, month and year values. Access individual values using the dereference operator ->
+- to displace the time as a string pass the tm structure to the **asctime_s** function along with a character array which is populated with the time as a textual description 
+
+### Time Example 
+```c++
+#include <time.h>
+using namespace std;
+
+int main(){
+	_time32_t rawtime; 
+	struct tm timeinfo;
+	char buffer[32];
+	_time32(&rawtime);
+	_localtime32_s(&timeinfo, &rawtime);
+	asctime_s(buffer,32,&timeinfo);
+
+	cout<<"The current time is " << buffer << endl;
+	return 0;
+}
+```
 
 
-
+### Summary 
+- C++ is an object oriented version of C 
+- The syntax has much in common with Java & C#
+- The main difference being pointers. 
+- All the projects created will use a console window as output.
