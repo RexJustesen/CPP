@@ -1,6 +1,6 @@
 ### Thoughts on the Singleton Pattern
 - Singleton pattern has the programming community divided. 
-- Some say it is a bad pattern, others things it is a great design pattern. 
+- Some say it is a bad pattern, others think it is a great design pattern. 
 - All patterns have trade offs and you need to think about what you get out of the singleton pattern and the lifetime of your program.
 
 ### What is the Singleton Pattern?
