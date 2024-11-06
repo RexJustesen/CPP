@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Singleton Pattern"
             }
+          },
+          {
+            "id": "f265ecd6da7a91a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ Notes/C++ Debugging in Visual Studio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++ Debugging in Visual Studio"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -192,8 +206,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "934d25eee8b9acc3",
+  "active": "f265ecd6da7a91a2",
   "lastOpenFiles": [
+    "Design Patterns in C++/Singleton Pattern/Singleton Pattern.md",
+    "C++ Notes/C++ Debugging in Visual Studio.md",
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/link.11652.write.1.tlog",
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/link.11652.read.1.tlog",
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/link.11652.read.2.tlog",
@@ -204,9 +220,7 @@
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/CL.write.1.tlog",
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/CL.read.1.tlog",
     "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/SingletonPatternExample.obj",
-    "Design Patterns in C++/Singleton Pattern/SingletonPatternExample/Singleto.655e0f77/x64/Debug/Singleto.655e0f77.tlog/unsuccessfulbuild",
     "Design Patterns in C++/C++ Rule Of Three/Rule of Three.md",
-    "Design Patterns in C++/Singleton Pattern/Singleton Pattern.md",
     "C++ Notes/C++ Classes, Objects, Inheritance & Encapsulation.md",
     "Design Patterns in C++/Command Pattern/Command Pattern.md",
     "C++ Notes/C++ Basics Examples/Examples.md",
