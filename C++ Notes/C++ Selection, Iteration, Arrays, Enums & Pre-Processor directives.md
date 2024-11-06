@@ -130,3 +130,18 @@ switch(option){
 }
 ```
 
+### While Loops 
+- While Loop executes the statement in the body {} while the expression evaluates to true 
+```c++
+while(expression){
+	statement/s;
+}
+```
+- Do While loops are similar to the while loop except the statements are guaranteed to execute at least once (useful for validation)
+```c++
+do {
+	statement/s;
+}
+while(expression);
+```
+
