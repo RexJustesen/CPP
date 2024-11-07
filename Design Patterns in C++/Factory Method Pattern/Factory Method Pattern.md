@@ -279,7 +279,7 @@ int main(){
 ```
 
 - There is another refactoring we can make that has to deal with the implementation. Returning raw pointers is not something many people like. So we can make use of smart pointers using the *memory* library 
-		*Remember*: A *smart pointer* is a class that manages a pointer to a dynamically allocated object, handling memory allocation and deallocation automatically. Smart pointers help prevent memory leaks and dangling pointers by ensuring that memory is properly released when it is no longer needed. 
+		*Remember*: A *smart pointer* is a class that manages a *pointer* to a dynamically allocated object, handling memory allocation and deallocation automatically. Smart pointers help prevent memory leaks and dangling pointers by ensuring that memory is properly released when it is no longer needed. 
 
 ```c++
 #include <iostream>
