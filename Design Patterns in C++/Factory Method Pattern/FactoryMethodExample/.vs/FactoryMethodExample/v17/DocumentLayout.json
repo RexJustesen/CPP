@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0419A802-06F8-4F3E-8552-83040734C6AC}|FactoryMethodExample.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodExample\\FactoryMethodExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0419A802-06F8-4F3E-8552-83040734C6AC}|FactoryMethodExample.vcxproj|solutionrelative:FactoryMethodExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FactoryMethodExample.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodExample\\FactoryMethodExample.cpp",
+              "RelativeDocumentMoniker": "FactoryMethodExample.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodExample\\FactoryMethodExample.cpp",
+              "RelativeToolTip": "FactoryMethodExample.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T17:10:21.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
