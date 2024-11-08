@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|solutionrelative:Factory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|solutionrelative:GameObjects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\ExtensibleFactoryPattern.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|solutionrelative:ExtensibleFactoryPattern.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|solutionrelative:GameObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{005564F9-2618-409A-A4C7-A9AD102828D0}|ExtensibleFactoryPattern.vcxproj|solutionrelative:Factory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtensibleFactoryPattern.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\ExtensibleFactoryPattern.cpp",
+              "RelativeDocumentMoniker": "ExtensibleFactoryPattern.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\ExtensibleFactoryPattern.cpp",
+              "RelativeToolTip": "ExtensibleFactoryPattern.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T15:59:02.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameObjects.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.cpp",
+              "RelativeDocumentMoniker": "GameObjects.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.cpp",
+              "RelativeToolTip": "GameObjects.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T16:04:36.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Factory.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.cpp",
+              "RelativeDocumentMoniker": "Factory.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.cpp",
+              "RelativeToolTip": "Factory.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T16:04:10.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObjects.hpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.hpp",
+              "RelativeDocumentMoniker": "GameObjects.hpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\GameObjects.hpp",
+              "RelativeToolTip": "GameObjects.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-08T16:03:45.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Factory.hpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.hpp",
+              "RelativeDocumentMoniker": "Factory.hpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\ExtensibleFactoryPattern\\Factory.hpp",
+              "RelativeToolTip": "Factory.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-08T16:03:17.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
