@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Factory Method Pattern - Adding More Power for Counting Allocated Objects"
             }
+          },
+          {
+            "id": "aa211908dda2efbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Patterns in C++/Factory Method Pattern/Extensible Factory Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Extensible Factory Pattern"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -233,8 +247,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72c1ac5303524334",
+  "active": "aa211908dda2efbe",
   "lastOpenFiles": [
+    "images/Pasted image 20241108093854.png",
+    "Design Patterns in C++/Factory Method Pattern/Factory Method Pattern - Adding More Power for Counting Allocated Objects.md",
+    "Design Patterns in C++/Factory Method Pattern/Extensible Factory Pattern.md",
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/Cl.items.tlog",
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryMethodCountingObjects.exe.recipe",
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/link.command.1.tlog",
@@ -245,9 +262,7 @@
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/link-cvtres.write.1.tlog",
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/link-cvtres.read.1.tlog",
     "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/link-rc.write.1.tlog",
-    "Design Patterns in C++/Factory Method Pattern/FactoryMethodCountingObjects/FactoryM.a40d5b41/x64/Debug/FactoryM.a40d5b41.tlog/link-rc.read.1.tlog",
     "Design Patterns in C++/Factory Method Pattern/Factory Method Pattern.md",
-    "Design Patterns in C++/Factory Method Pattern/Factory Method Pattern - Adding More Power for Counting Allocated Objects.md",
     "images/Pasted image 20241107100539.png",
     "images/Pasted image 20241107100031.png",
     "C++ Notes/C++ Selection, Iteration, Arrays, Enums & Pre-Processor directives.md",
