@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodCountingObjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A40D5B41-6D2B-43EB-BABC-678388C822DE}|FactoryMethodCountingObjects.vcxproj|C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodCountingObjects\\FactoryMethodCountingObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A40D5B41-6D2B-43EB-BABC-678388C822DE}|FactoryMethodCountingObjects.vcxproj|solutionrelative:FactoryMethodCountingObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FactoryMethodCountingObjects.cpp",
+              "DocumentMoniker": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodCountingObjects\\FactoryMethodCountingObjects.cpp",
+              "RelativeDocumentMoniker": "FactoryMethodCountingObjects.cpp",
+              "ToolTip": "C:\\Users\\MicroAi\\Documents\\Rex Notes\\C\u002B\u002B Design Patterns\\Design Patterns in C\u002B\u002B\\Factory Method Pattern\\FactoryMethodCountingObjects\\FactoryMethodCountingObjects.cpp",
+              "RelativeToolTip": "FactoryMethodCountingObjects.cpp",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-08T14:15:16.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

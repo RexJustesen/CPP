@@ -337,3 +337,18 @@ int main(){
 
 - no we have a factory that creates object and handles the deallocation of memory. 
 - some things to think about is the memory allocation and if you should use shared_ptr or unique_ptr or some other memory management method for your use case. 
+
+### Recap 
+- We used **Inheritance-Based Polymorphism**
+- We created an interface.
+- We made two different derived classes for that interface
+- We made our factory method 
+
+### Pros and Cons of the Factory Method 
+
+
+| Pros                                          | Cons                                                                                       |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Single Responsibility for the Factory         | You do have to make at least two updates to our code i.e., enum type and the method itself |
+| It is pretty easy to update and is extensible | You may need several factories for each of the different class hierarchies                 |
+- There are more update we will make to the factory method that make it even more powerful. See those in the same folder. 
